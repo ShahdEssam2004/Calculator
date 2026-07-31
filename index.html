@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calc — Simple Calculator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calc-wrap">
+  <div class="calculator">
+    <div class="calc-header">
+      <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+      <span class="calc-title">calc</span>
+    </div>
+
+    <div class="display">
+      <div class="display-history" id="history"></div>
+      <div class="display-current" id="current">0</div>
+    </div>
+
+    <div class="keys">
+      <button class="key fn" data-action="clear">AC</button>
+      <button class="key fn" data-action="backspace">⌫</button>
+      <button class="key fn" data-action="percent">%</button>
+      <button class="key op" data-action="operator" data-op="÷">÷</button>
+
+      <button class="key num" data-action="digit">7</button>
+      <button class="key num" data-action="digit">8</button>
+      <button class="key num" data-action="digit">9</button>
+      <button class="key op" data-action="operator" data-op="×">×</button>
+
+      <button class="key num" data-action="digit">4</button>
+      <button class="key num" data-action="digit">5</button>
+      <button class="key num" data-action="digit">6</button>
+      <button class="key op" data-action="operator" data-op="−">−</button>
+
+      <button class="key num" data-action="digit">1</button>
+      <button class="key num" data-action="digit">2</button>
+      <button class="key num" data-action="digit">3</button>
+      <button class="key op" data-action="operator" data-op="+">+</button>
+
+      <button class="key num zero" data-action="digit">0</button>
+      <button class="key num" data-action="decimal">.</button>
+      <button class="key eq" data-action="equals">=</button>
+    </div>
+    <p class="hint">Keyboard supported: 0–9, + − * /, Enter, Backspace, Esc</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
