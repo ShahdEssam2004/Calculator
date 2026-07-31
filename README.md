@@ -22,7 +22,7 @@ A modern and responsive calculator application built with HTML, CSS, and JavaScr
 
 ## 🚀 Live Demo
 
-🔗 https://shahdessam2004.github.io/Calculator/
+🔗  https://shahdessam2004.github.io/CodeAlpha_Calculator/
 
 ## 📂 Project Structure
 
